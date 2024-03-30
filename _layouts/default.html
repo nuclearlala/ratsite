@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ 
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <table cellspacing=0>
+        <tr>
+            <td id="sidebar">   
+                {% include sidebar.html %}
+            </td>
+            <td id="transwrongs">
+
+                {{ content }}
+ 
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

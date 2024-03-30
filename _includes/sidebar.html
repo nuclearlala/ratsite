@@ -1,0 +1,56 @@
+<div id="side">
+    <div class="side img">
+        <img style="margin:30px 0 0 0" src="/assets/images//sittin.png" width="220px">
+    </div>
+    <audio id="music" src="https://files.catbox.moe/mpckrt.mp3"></audio>
+    <button style="background-color:transparent; color: white; font-family:ms gothic; border:0px; width:235px; margin-left:-5px; font-size:18px" onclick="playpause()">
+    <div class="button">&#9654; <marquee style="width:180px; font-size:18px; font-family:ms gothic; margin-bottom:-5px; background:transparent;">Cheerleader by Porter Robinson </marquee></div></button>
+    <script>
+        let player = document.getElementById("music"); //the audio id
+        let btn = document.getElementById("btn"); //the button id
+        isPlaying = false; //set to false because it is not playing yet
+    
+        function playpause() {
+            if (!isPlaying) play(); //if isPlaying is false, then play the music
+            else pause(); //if isPlaying is true, then pause the music
+        }
+    
+        function play(){
+            player.play(); //play the music
+            isPlaying = true; //set to true because the music is playing
+            btn.innerHTML = "pause"; //change the button to say pause
+        }
+    
+        function pause(){
+            player.pause(); //pause the music
+            isPlaying = false; //set to false because the music is not playing
+            btn.innerHTML = "play"; //change the button to say play
+        }
+    
+        player.onended = function(){
+            isPlaying = false; //the song has ended, isPlaying is false
+            btn.innerHTML = "play"; //change the button to say play
+        }
+        
+        var audio = document.getElementById("music");
+        audio.volume = 0.04;
+
+    </script>
+    
+    
+    <center><img src="/assets/images/smolrat.gif" width=50px style="padding-bottom: 40px;"> </center>
+    <center>  
+    <img src="/assets/images/aliens.gif"> 
+    <img src="/assets/images/haunting.gif">
+    <img src="/assets/images/alone.gif">
+    <img src="/assets/images/crash.gif">
+    <img src="/assets/images/crypto.gif"> 
+    </center>
+
+    <div id="desc">
+    Lala ⭐ he/him ⭐ Artist, wannabe animator, gay idiot, collector of plushes and occasional speedrunner⭐
+    </div>
+
+  <a href="Art.html">ART!!!!</A>
+
+</div>
