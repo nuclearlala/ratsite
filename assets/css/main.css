@@ -137,7 +137,7 @@ html {
 
     #content{
     text-align:center;
-    background:white;
+    background-image:url("/assets/images/gifback.gif");
     padding:15px;
     border:3px outset white;
     float: left; width: 100% }
