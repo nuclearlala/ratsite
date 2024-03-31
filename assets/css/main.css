@@ -116,9 +116,6 @@ html {
 
         /* content */
 
-    #main{
-    color: white;
-    }
 
     #transwrongs{
     overflow:auto;
@@ -141,6 +138,7 @@ html {
 
     #content{
     text-align:center;
+    color: white;
     background-image:url("/assets/images/gifback.gif");
     padding:15px;
     border:3px outset white;
