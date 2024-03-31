@@ -3,10 +3,11 @@ layout: default
 title: Rat Scribbles
 ---
 <center><img src="/assets/images/sittin.png" width="200px"></center> <br>
-<h> When will god stop my Sinful hand? </h></center>
+<h> When will god stop my Sinful hand? </h></center> <br>
 
 
     {% for post in site.art %}
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<img src="{{post.image}}" height="300px"></a>
-			
+    <div class="artpost">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<br><img src="{{post.image}}" height="300px"></a>
+    </div>
     {% endfor %}
