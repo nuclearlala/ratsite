@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to City 17!"
 date:   2024-03-30 08:16:00 -0400
-categories: test!
+categories: test
 ---
 
 Welcome. Welcome to **City 17**.
