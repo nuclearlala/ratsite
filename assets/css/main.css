@@ -139,7 +139,6 @@ html {
          padding: 0;
     }
     .imgbox {
-         display: grid;
          height: 100%;
     }
     .center-fit {
