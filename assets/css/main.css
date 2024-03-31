@@ -116,6 +116,10 @@ html {
 
         /* content */
 
+    #main{
+    color: white;
+    }
+
     #transwrongs{
     overflow:auto;
     padding:5px;
