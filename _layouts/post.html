@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<b>{{ page.title }}</b><br><br>
-<p style="font-size: 10px;">{{ page.date | date_to_string }}</p><br>
+<b>{{ page.title }}</b><br>
+<p style="font-size: 10px;">{{ page.date | date_to_string }}</p>
+<p style="font-size: 10px;">categories: {% for category in page.categories %} <a href="/category/{{ category }}">{{ category }}</a> {% endfor %}</p>
+<p style="font-size: 10px;">tags: {% for tag in page.tags %} <a href="/tag/{{ tag }}">{{ tag }}</a> {% endfor %}</p>
 
 {{ content }}
