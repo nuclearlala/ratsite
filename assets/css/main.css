@@ -173,5 +173,8 @@ html {
         display: inline-block;
         padding: 10px;
     }
+    .vertical-divider{
+        height: 300px;
+    }
 
 /* end credit */
