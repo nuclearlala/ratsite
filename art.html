@@ -1,8 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Rat Scribbles
 ---
+<center><img src="/assets/images/sittin.png" width="200px"></center> <br>
+<h> When will god stop my Sinful hand? </h></center>
 
-cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock cock
+
+    {% for post in site.art %}
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<img src="{{post.image}}" height="300px"></a>
+			
+    {% endfor %}

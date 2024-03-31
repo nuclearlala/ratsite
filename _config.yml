@@ -50,3 +50,10 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - runjekyll.bat
+
+#collections
+collections:
+  art:
+    output: true
+    permalink: /art/:name
+    sort_by: date
