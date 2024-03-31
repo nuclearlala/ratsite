@@ -139,7 +139,8 @@ html {
     text-align:center;
     background:white;
     padding:15px;
-    border:3px outset white;}
+    border:3px outset white;
+    float: left; width: 100% }
 
     #sleepy{
     position:fixed;
