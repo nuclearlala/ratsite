@@ -151,6 +151,22 @@ html {
 
         /* content end */
 
+        #songselect {
+            width: 24px;
+            height: 24px;
+            font-size: 0;
+            background: black;
+            border: none;
+            background-image: url('/assets/images/favicon.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        #songselect option {
+            font-size: 14px;
+        }
+
 
         /* credit, and pagedoll */
 

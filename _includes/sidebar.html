@@ -2,13 +2,26 @@
     <div class="side img">
         <a href="/"><img style="margin:15px 0 0 0" src="/assets/images//sittin.png" width="220px"></A>
     </div>
-    <audio id="music" src="https://files.catbox.moe/mpckrt.mp3"></audio>
+    <audio id="music" src="test"></audio>
     <button style="background-color:transparent; color: white; font-family:ms gothic; border:0px; width:235px; margin-left:-5px; font-size:18px" onclick="playpause()">
-    <div class="button">&#9654; <marquee style="width:180px; font-size:18px; font-family:ms gothic; margin-bottom:-5px; background:transparent;">Cheerleader by Porter Robinson </marquee></div></button>
+    <div class="button">&#9654; <marquee id="songLabel" style="width:180px; font-size:18px; font-family:ms gothic; margin-bottom:-5px; background:transparent;">Not Playing </marquee></div></button>
+    <select name="songselect" id="songselect">
+        <option value="mememe by 100 gecs">mememe by 100 gecs</option>
+        <option value="Cheerleader by Porter Robinson">Cheerleader by Porter Robinson</option>
+        <option value="Darude - Sandstorm">Darude - Sandstorm</option>
+    </select>
+    
     <script>
         let player = document.getElementById("music"); //the audio id
         let btn = document.getElementById("btn"); //the button id
+        let songselection;
         isPlaying = false; //set to false because it is not playing yet
+
+        let songs = {
+            'mememe by 100 gecs': 'https://files.catbox.moe/ltmpmb.mp3',
+            'Cheerleader by Porter Robinson': 'https://files.catbox.moe/mpckrt.mp3',
+            'Darude - Sandstorm': 'https://media.djlunatique.com/2022/02/Rick-Roll-Sound-Effect.mp3'
+        };
     
         function playpause() {
             if (!isPlaying) play(); //if isPlaying is false, then play the music
@@ -16,6 +29,9 @@
         }
     
         function play(){
+            songselection = document.getElementById('songselect').value;
+            loadSong(songselection);
+            player.volume = 0.04;
             player.play(); //play the music
             isPlaying = true; //set to true because the music is playing
             btn.innerHTML = "pause"; //change the button to say pause
@@ -31,10 +47,15 @@
             isPlaying = false; //the song has ended, isPlaying is false
             btn.innerHTML = "play"; //change the button to say play
         }
-        
-        var audio = document.getElementById("music");
-        audio.volume = 0.04;
 
+        function loadSong(songName) {
+            console.log(songs[songName]);
+            var player=document.getElementById('player');
+            var sourceMp3=document.getElementById('music');
+            document.getElementById('songLabel').innerText=songName;
+            sourceMp3.src=songs[songName];
+        }
+    
     </script>
     
     <center><img src="/assets/images/online.gif" width=50px> </center>
