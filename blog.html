@@ -2,14 +2,14 @@
 layout: default
 title: Rat Talk!
 ---
-<img src="/assets/images/sittin.png">
-<h> REAL RAT MOMENTS WHO UP? </h>
+<center><img src="/assets/images/sittin.png" width="200px"></center> <br>
+<h> REAL RAT MOMENTS WHO UP? </h></center>
 
 <ul>
     {% for post in site.posts %}
         <li>
             <b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b>
-            <p>{{ post.date | date_to_string }} - {{ post.author }}</p>
+            <p>{{ post.date | date_to_string }}</p>
             {{ post.excerpt }}
         </li>
     {% endfor %}
