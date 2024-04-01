@@ -166,6 +166,12 @@ html {
     }
 
 
+    .draggable {
+        position: absolute;
+        z-index: 10;
+        display: inline;
+      }
+
         /* content end */
 
         #songselect {
