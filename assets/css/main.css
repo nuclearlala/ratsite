@@ -156,7 +156,8 @@ html {
     color: white;
     background-image:url("/assets/images/gifback.gif");
     padding:15px;
-    float: left; width: 100% 
+    float: left; 
+    width: 100%;
     outline: dashed;
     outline-color: #ffb4e5;
 
