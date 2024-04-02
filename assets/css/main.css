@@ -17,9 +17,9 @@ html {
 	margin: 0}
 
     a{
-    color:#b619ff;
+    color:#ffffff;
     font-weight:bold;
-    text-decoration:underline;}
+    text-decoration:dashed;}
 
     a:hover{
     color:pink;
