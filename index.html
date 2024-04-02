@@ -17,7 +17,13 @@ title: The Rat Hideout
   max-width: 450px;
 }
 #newposts{
-    background-color: aqua;
+    background: url("/assets/images/NewPost1.gif") no-repeat;
+    background-size: auto;
+    background-size: contain;
+    padding: 60px;
+    padding-top: 100px;
+    margin-top: 60px;
+    height: 750px;
 }
 #latestart {
     background: url("/assets/images/lastestart.gif") no-repeat;
@@ -39,7 +45,7 @@ title: The Rat Hideout
 
 <div class="rightcolumn">
     <div id="newposts">
-        <p>Check out my newest posts!</p>
+        <p3><img id="banner" src="/assets/images/NewPost.gif"></p3>
         {% for post in site.posts limit:3 %}
             <p><a href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US" }} - {{ post.title }}</a></p>
         {% endfor %}
