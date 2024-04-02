@@ -175,11 +175,11 @@ html {
 
     #horse{
         margin-top: 533px;
-        position: fixed;
+        position: absolute;
       }  
 
     #horse2{
-        position: fixed;
+        position: absolute;
         margin-left: -44px;
       }
 
