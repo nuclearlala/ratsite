@@ -40,11 +40,18 @@ title: The Rat Hideout
     margin-top: -190px;
 }
 
+#banner1{
+    position: absolute;
+    margin-left: -235px;
+    margin-top: -155px;
+}
+
+
 </style>
 
 <div class="rightcolumn">
     <div id="newposts">
-        <p3><img id="banner" src="/assets/images/NewPost1.gif"></p3>
+        <p4><img id="banner1" src="/assets/images/NewPost1.gif"></p4>
         {% for post in site.posts limit:3 %}
             <p><a href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US" }} - {{ post.title }}</a></p>
         {% endfor %}
