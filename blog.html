@@ -9,23 +9,24 @@ title: Rat Talk!
     }
 
     .p2{
-        font-size:smaller;
+        font-size: 30px;
     }
     
     .p3{
-        font-size:small;
+        font-size: 20px;
 
     }
 
 </style>
 
 <center><img src="/assets/images/girdance.gif" width="80px"></center> <br>
-<h> REAL RAT MOMENTS WHO UP? </h></center>
-
+<h> Rat Bloggin' </h></center>
+<br>
 <ul>
     {% for post in site.posts %}
         <li>
             <h><b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></h>
+            <br>
             <p2>{{ post.date | date_to_string }}</p2>
             <p3><i>{{ post.excerpt }}</i></p3>
         </li>
