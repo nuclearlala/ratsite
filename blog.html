@@ -2,22 +2,7 @@
 layout: default
 title: Rat Talk!
 ---
-<style>
 
-    .h{
-        font-size: 50px;
-    }
-
-    .p2{
-        font-size: 20px;
-    }
-    
-    .p3{
-        font-size: 10px;
-
-    }
-
-</style>
 
 <center><img src="/assets/images/girdance.gif" width="80px"></center> <br>
 <h> Rat Bloggin' </h></center>
@@ -25,10 +10,10 @@ title: Rat Talk!
 <ul>
     {% for post in site.posts %}
         <li>
-            <h><b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></h>
+            <h style="font-size: 30px;"><b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b></h>
             <br>
-            <p2>{{ post.date | date_to_string }}</p2>
-            <p3><i>{{ post.excerpt }}</i></p3>
+            <p2 style="font-size: 10px;">{{ post.date | date_to_string }}</p2>
+            <p3 style="font-size: 15px;"><i>{{ post.excerpt }}</i></p3>
             <center><img src="/assets/images/starsdivider.gif" width=300px style="padding: 20px 0 20px 0;"></center> <br>
         </li>
     {% endfor %}
