@@ -158,8 +158,9 @@ html {
     padding:15px;
     float: left; 
     width: 100%;
-    outline: dashed;
-    outline-color: #ffb4e5;
+    border-image: url("/assets/images/outline.gif");
+    border-image-width: 0 4px 0 0;
+    border: 10px;
 
 }
     #sleepy{
