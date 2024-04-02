@@ -168,17 +168,21 @@ html {
     }
 
     #ufo{
-        margin-top: 323px;
+        margin-top: 178px;
         position: absolute;
-        margin-left: -228px;
+        margin-left: -18px;
     }
 
     #horse{
-
+        margin-top: 533px;
+        position: fixed;
+      }
     }
 
     #horse2{
-
+        position: fixed;
+        margin-left: -44px;
+      }
     }
 
         /* content end */
