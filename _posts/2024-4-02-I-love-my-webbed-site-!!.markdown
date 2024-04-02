@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "I love my Webbed Site !!"
-date:   2024-04-02 04:44:00
+date:   2024-04-02 04:44:00 -0400
+categories: update
 ---
 
 So I think this site is, not like.. finished right but it's in a such a cool position that I'm so so so happy!! There is a puch of other goofy stuff I wanna add and do, tho
