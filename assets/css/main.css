@@ -156,11 +156,9 @@ html {
     color: white;
     background-image:url("/assets/images/gifback.gif");
     padding:15px;
-    float: left; 
-    width: 100%;
-    border-image: url("/assets/images/outline.gif");
-    border-image-width: 0 4px 0 0;
-    border: 10px;
+    float: left; width: 100%; 
+    outline: dashed;
+    outline-color: #ffb4e5;
 
 }
     #sleepy{
