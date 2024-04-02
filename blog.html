@@ -9,11 +9,11 @@ title: Rat Talk!
     }
 
     .p2{
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .p3{
-        font-size: 20px;
+        font-size: 10px;
 
     }
 
@@ -29,6 +29,7 @@ title: Rat Talk!
             <br>
             <p2>{{ post.date | date_to_string }}</p2>
             <p3><i>{{ post.excerpt }}</i></p3>
+            <center><img src="/assets/images/starsdivider.gif" width=300px style="padding: 20px 0 20px 0;"></center> <br>
         </li>
     {% endfor %}
 </ul>
