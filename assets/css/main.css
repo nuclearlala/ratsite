@@ -176,6 +176,7 @@ html {
     #horse{
         margin-top: 581px;
         margin-left: 30px;
+        position:absolute;
       }  
 
     #horse2{
