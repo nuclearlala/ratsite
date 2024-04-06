@@ -1,14 +1,23 @@
 ---
 layout: default
 title: Rat Scribbles
+paginate:
+  collection: art
+  per_page: 20
+  limit: false
+  permalink: /art/:num/
+  reversed: true
 ---
 <h> <img src="/assets/images/sin.gif"> </h></center> <br>
 
 
-    {% for post in site.art reversed %}
+    {% for post in paginator.art %}
     <div class="artpost">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<br><img src="{{post.image}}" height="300px"></a>
     </div>
     <img class="vertical-divider" src="/assets/images/stardividerV.gif">
     {% endfor %}
    
+    <br>
+    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}">prev</a>{% endif %}
+    {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">next</a>{% endif %}
