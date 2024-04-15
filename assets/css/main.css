@@ -16,6 +16,17 @@ html {
     background: url("/assets/images/back.gif"); 
 	margin: 0}
 
+
+    #about{
+
+        text-indent: 50px;
+        font-size: 25px;
+    
+    }
+
+    h2
+    
+
     a{
     color:#ffffff;
     font-weight:bold;
