@@ -9,6 +9,6 @@ So a weird one here but I got this 1996 Sharp Zaurus ZR-5700 for.. free! Been ha
 
 <center>
     <img src="/assets/thrift/PDA 1.png"> 
-    <img src="/assets/thrift/PDA 2.png">
-    <img src="/assets/thrift/PDA 3.png">
+    <img src="/assets/thrift/PDA 2.jpg">
+    <img src="/assets/thrift/PDA 3.jpg">
 </center>
