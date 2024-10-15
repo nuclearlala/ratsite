@@ -2,7 +2,7 @@
 layout: art
 title: "Nubbins needs a Vet!"
 date: 2024-10-15 03:46:00 -0400
-image: "/assets/art/nubbins vida.png"
+image: "/assets/art/nubbins vida 2.png"
 tags:   vidathevet
 ---
 
