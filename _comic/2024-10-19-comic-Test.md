@@ -7,5 +7,4 @@ description: "this is the description"
 tags: 
 ---
 
-<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.alt }}" title="{{ page.text }}" style="max-width:100%;max-height:100vh">
-this is text under the image
+<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.alt }}" title="{{ page.text }}" style="max-width:150%;max-height:150vh">
