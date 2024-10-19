@@ -1,0 +1,12 @@
+---
+layout: comic
+title: comic
+latest: true
+---
+
+<!-- lily here! im stealing my own code from the legacy hazel and robyn website - also read that comic too!! https://hazelandrobyn.buny.plus :3 -->
+<meta http-equiv="refresh" content="0; url='{{ site.comic.last.url }}'">
+<link rel="canonical" href="{{ site.comic.last.url }}" />
+
+{% assign posts = site.comic %}
+{{ posts.last.content }}

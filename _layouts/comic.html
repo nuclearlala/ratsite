@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<!--
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/comic.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if page.latest %}
+            {% include comicmetahome.html %}
+        {% else %}
+            {% include comicmeta.html %}
+        {% endif %}
+    </head>
+-->
+
+        <div id="comiccontainer">
+            <!-- header html here -->
+
+            <div id="comicnavigator">
+                <a href="1">first</a>
+                {% if page.previous.url %}
+                    <a href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
+                {% endif %}
+                {% if page.latest %}
+                    <a href="{{ site.baseurl }}{{ site.comic.last.previous.url }}">previous</a>
+                {% endif %}
+                {% if page.next.url %}
+                    <a href="{{ site.baseurl }}{{ page.next.url }}">next</a>
+                {% endif %}
+                <a href=".">latest</a>
+            </div>
+
+            <div id="comiccontent">
+                {{ content }}
+            </div>
+
+            <div id="comicnavigator">
+                <a href="1">first</a>
+                {% if page.previous.url %}
+                    <a href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
+                {% endif %}
+                {% if page.latest %}
+                    <a href="{{ site.baseurl }}{{ site.comic.last.previous.url }}">previous</a>
+                {% endif %}
+                {% if page.next.url %}
+                    <a href="{{ site.baseurl }}{{ page.next.url }}">next</a>
+                {% endif %}
+                <a href=".">latest</a>
+            </div>
+
+            <div style="width: 50%; margin-left: auto; margin-right: auto">
+                <p style="text-align:left"><span style="font-size: 20px;">{{ page.title }}</span></br> by {{ page.author }} on {{ page.date | date_to_string | date: "%b. %d, %Y" | downcase }}</p>
+                {% if page.description %}
+                    <p style="text-align:left">{{ page.description }}</span>
+                {% endif %}
+            </div>
+        </div>
+        <!-- footer goes here -->
+    </body>
+</html>

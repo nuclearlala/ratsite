@@ -57,6 +57,10 @@ collections:
     output: true
     permalink: /art/:name
     sort_by: date
+  comic:
+    output: true
+    permalink: /comic/:name
+    sort_by: date
 
 jekyll-archives:
   enabled:
