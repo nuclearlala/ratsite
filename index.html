@@ -40,7 +40,7 @@ title: The Rat Hideout
     background-size: contain;
     padding: 60px;
     padding-top: 150px;
-    margin-top: 80px;
+    margin-top: -200px;
     height: 430px;
 }
 
@@ -61,7 +61,7 @@ title: The Rat Hideout
 #banner3{
     position: absolute;
     margin-left: -235px;
-    margin-top: -170px;
+    margin-top: -140px;
 }
 
 </style>
@@ -84,7 +84,7 @@ title: The Rat Hideout
     <p3><img id="banner3" src="/assets/images/comicbanner.gif"></p5>
     {% assign comic = site.comic | reverse %}
     {% for post in comic limit:1 %}
-        <p><a href="{{ post.url }}"><img src="{{ post.image }}" style="max-width: 80%; max-height: 150px; padding-top: 30px;"></a></p>
+        <p><a href="{{ post.url }}"><img src="{{ post.image }}" style="max-width: 100%; max-height: 200px; padding-top: 100px;"></a></p>
     {% endfor %}
 </div>
 </div> 
