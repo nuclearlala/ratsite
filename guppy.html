@@ -1,12 +1,30 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
-title: The Rat Hideout
----
-
-<head>
+<html>
+    <head>
+ 
+        <title>Guppy</title>
+        {% if page.layout == "comic" %}
+            <meta property="og:site_name" content="Ellie n' Alli (tentative title), a small Slice of Life 4-Panel comic feature Ellie and her best friend Alli, and the goofy early 2000s antics they can get up to!">
+            <meta property="og:title" content="{{ page.title }}">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+            <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+            <meta property="og:image:alt" content="{{ page.alt }}">
+            <meta name="twitter:card" content="summary_large_image">
+        {% else %}
+            <meta name="description" content="{{ page.description }}" />
+            <meta charset="utf-8">
+            <meta property="og:description" content="{% if page.is_post %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+            <meta property="og:site_name" content="{{ site.title }}">
+            <meta property="og:title" content="{{ page.title }}">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+            <meta content="#FFCDD6" data-react-helmet="true" name="theme-color" />
+        {% endif %}
+        <script src="/assets/js/tinkerbell.js"></script>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="/assets/css/main.css">
 <style>
 :root {
     view-transition-name: root;
