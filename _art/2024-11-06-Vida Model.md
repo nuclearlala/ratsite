@@ -9,7 +9,7 @@ tags:   vidathevet
 A reference sheet I made to commission a model of Vida the Vet! Here are some picture of the already finished model!
 
 
-<center> <img src= "/assets/images/vida1.png"  style="max-width:100%;max-height:100vh"> <img src= "/assets/images/vida2.png"  style="max-width:100%;max-height:100vh"> <img src= "/assets/images/vida3.png"  style="max-width:100%;max-height:100vh"> <img src= "/assets/images/vidafloss1.gif"  style="max-width:100%;max-height:100vh">
+<center> <img src= "/assets/images/vida1.png"  style="max-width:60%;max-height:60vh"> <img src= "/assets/images/vida2.png"  style="max-width:60%;max-height:60vh"> <img src= "/assets/images/vida3.png"  style="max-width:60%;max-height:60vh"> <img src= "/assets/images/vidafloss1.gif"  style="max-width:60%;max-height:60vh">
 
 <video width="458" height="548" controls>
   <source src="/assets/images/vidadance.mp4" type="video/mp4">
