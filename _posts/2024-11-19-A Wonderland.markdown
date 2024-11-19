@@ -15,7 +15,7 @@ Nonetheless, the whole hospital thing was.. really scary- obviously, lol and onl
 <br>
 But after a second glance, I DID find something. I skimmed over the VHS section, mostly the clam shell ones. I've been looking for Alice in Wonderland on VHS for quite some time? It's been weirdly hard to find, i've been looking for like idk months now. Even on DVD I can't really find it at thrift stores so, ya know it be like that. 
 <br>
-Anywaaays, i dove into the VHS section, looking through like.. layers of VHS tapes. They had like 4 copies of Return of Jafar or whatever the probably shitty alladin sequel is called, so a tad defeated I sat on the furniture they sell there to relax- I was still kinda gettin' minor chest pains so I was relaxin' talking to my sister and literally as I was saying <font color= "red">"I still can't find Alice-</font> and like quite literally before I finished my sentence, I looked back at the VHS tapes It was just there????
+Anywaaays, i dove into the VHS section, looking through like.. layers of VHS tapes. They had like 4 copies of Return of Jafar or whatever the probably shitty alladin sequel is called, so a tad defeated I sat on the furniture they sell there to relax- I was still kinda gettin' minor chest pains so I was relaxin' talking to my sister and literally as I was saying <font color= "red">I still can't find Alice-</font> and like quite literally before I finished my sentence, I looked back at the VHS tapes It was just there????
 <br>
 <br>
 Like I looked over it, a few times and just didn't see it?? But suddenly it just appeared there it as just.. weird. I'm sure I just missed it but hey maybe it's the world throwing me a very, very small bone. It's the little things you gotta look forward to I suppose right? Anyways, check below for pictures and a nice little video :3
@@ -26,7 +26,7 @@ Like I looked over it, a few times and just didn't see it?? But suddenly it just
     <img src="/assets/thrift/alicevhs1.png"> 
 
 
-<video width="1360" height="1080" controls>
+<video width="1000" height="720 " controls>
   <source src="/assets/thrift/alicevhs2.mp4" type="video/mp4">
 </video>
 
