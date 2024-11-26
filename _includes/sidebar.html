@@ -1,3 +1,17 @@
+<style>
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+
 <div id="side">
     <div class="side img">
         <img id="horse2" src="/assets/images/DerpWiggle.gif">
@@ -82,15 +96,25 @@
             <img src="/assets/images/starsdivider.gif" width=300px style="padding: 20px 0 20px 0;">
         </center>
     <center>  
+     
         
-    <a href="/index.html"><img src="/assets/images/home.gif"></a>  
-    <a href="/art.html"><img src="/assets/images/artbutton.gif"></a>  
-    <a href="/comic.html"><img src="/assets/images/comic button.gif"></a>   
-    <a href="/blog.html"><img src="/assets/images/blog.gif"></a> 
-    <a href="/about.html"><img src="/assets/images/aboutme.gif"></a>
-    <a href="/category/thrift/"><img src="/assets/images/thrift.gif"></a>   
-    <a href="/blorbos.html"><img src="/assets/images/blorbobutton.gif"></a>
-    <a href="/mods.html"><img src="/assets/images/mods.gif"></a> 
+        <div class="row">
+            <div class="column">
+                <img src="/assets/buttons/blog header.png">   
+                <a href="/index.html"><img src="/assets/buttons/home.gif"></a>    
+                <a href="/blog.html"><img src="/assets/buttons/blog.gif"></a> 
+                <a href="/about.html"><img src="/assets/buttons/about.gif"></a>
+                <a href="/category/thrift/"><img src="/assets/buttons/thrift.gif"></a>   
+                <a href="/blorbos.html"><img src="/assets/buttons/blorbos.gif"></a>
+            </div>
+            <div class="column">
+                <img src="/assets/buttons/art header.png">
+                <a href="/art.html"><img src="/assets/buttons/art.gif"></a> 
+                <a href="/comic.html"><img src="/assets/buttons/comic.gif"></a> 
+                <a href="/mods.html"><img src="/assets/buttons/mods.gif"></a> 
+            </div>
+          </div>
+
 
 
     <br>
