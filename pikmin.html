@@ -43,6 +43,12 @@ body {
   min-height: 100%;
 }
 
+
+ audio::-webkit-media-controls {
+    display: none;
+}
+
+
  </style>
     </head>
 
@@ -51,7 +57,9 @@ body {
         <source src="assets/vibes/awakeningwood.mp4" type="video/mp4">
       </video>
 
-      <audio src="assets/vibes/Awakening Wood.mp3" autoplay loop controls></audio>
+      <audio controls="" autoplay="">
+        <source src="assets/vibes/Awakening Wood.mp3" type="audio/mpeg">
+      </audio>
 
 
             </div>
