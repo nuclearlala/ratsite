@@ -41,6 +41,7 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index:-100;
 }
 
 
@@ -57,9 +58,10 @@ body {
         <source src="assets/vibes/awakeningwood.mp4" type="video/mp4">
       </video>
 
-      <audio controls="" autoplay="">
-        <source src="assets/vibes/Awakening Wood.mp3" type="audio/mpeg">
-      </audio>
+      <audio id="bg-music" src="assets/vibes/Awakening Wood.mp3" muted autoplay></audio>
+      <script>
+          document.getElementById("bg-music").muted = false; // Unmute after a slight delay
+      </script>
 
 
             </div>
