@@ -5,7 +5,7 @@ date: 2025-05-05 01:48:00 -0400
 image: "/assets/art/hehe.png"
 tags:   sarahandduck sarahshipping
 ---
-<center> <img src= "/assets/art/hehe 2.png"  style="max-width:60%;max-height:60vh"> </center>
+<center> <img src= "/assets/art/hehe 2.png"> </center>
 <br>
 <br>
 

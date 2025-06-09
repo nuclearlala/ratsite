@@ -8,8 +8,8 @@ tags:   sarahandduck
 
 An image series of Sarah placed in liminal places
 
-<center> <img src= "/assets/art/Liminal Sarah/bathroom.png"  style="max-width:60%;max-height:60vh">
-<center> <img src= "/assets/art/Liminal Sarah/Flooded2.png"  style="max-width:60%;max-height:60vh">
-<center> <img src= "/assets/art/Liminal Sarah/Bed.png"  style="max-width:60%;max-height:60vh">
-<center> <img src= "/assets/art/Liminal Sarah/Play Area.png"  style="max-width:60%;max-height:60vh">
-<center> <img src= "/assets/art/Liminal Sarah/swimming.png"  style="max-width:60%;max-height:60vh">
+<center> <img src= "/assets/art/Liminal Sarah/bathroom.png">
+<center> <img src= "/assets/art/Liminal Sarah/Flooded2.png">
+<center> <img src= "/assets/art/Liminal Sarah/Bed.png">
+<center> <img src= "/assets/art/Liminal Sarah/Play Area.png">
+<center> <img src= "/assets/art/Liminal Sarah/swimming.png">
