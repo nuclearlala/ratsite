@@ -48,7 +48,7 @@ layout: default
             </div>
 
             <div style="width: 50%; margin-left: auto; margin-right: auto">
-                <p style="text-align:left"><span style="font-size: 20px;">{{ page.title }}</span></br> {{ page.date | date_to_string | date: "%b. %d, %Y" | downcase }}</p>
+                <p style="text-align:left"><span style="font-size: 20px;">{{ page.title }}</span></br> by Nuclearlala {{ page.author }} on {{ page.date | date_to_string | date: "%b. %d, %Y" | downcase }}</p>
                 {% if page.description %}
                     <p style="text-align:left">{{ page.description }}</span>
                 {% endif %}
