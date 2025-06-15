@@ -1,6 +1,6 @@
 ---
 layout: art
-title: "Liminal Sarah"
+title: "Liminal Sarah Set"
 date: 2025-06-09 01:48:00 -0400
 image: "/assets/art/Liminal Sarah/liminal set.png"
 tags:   sarahandduck
