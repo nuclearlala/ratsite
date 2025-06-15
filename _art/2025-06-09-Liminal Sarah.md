@@ -6,7 +6,7 @@ image: "/assets/art/Liminal Sarah/liminal set.png"
 tags:   sarahandduck
 ---
 
-An image series of Sarah placed in liminal places
+An image series of Sarah placed in liminal places.
 
 <center> <img src= "/assets/art/Liminal Sarah/bathroom.png">
 <center> <img src= "/assets/art/Liminal Sarah/Flooded2.jpg">
