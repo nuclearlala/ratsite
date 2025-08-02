@@ -8,7 +8,7 @@ jobs:
       - name: build jekyll
         uses: jerryjvl/jekyll-build-action@v1
       - name: Deploy to neocities
-        uses: bcomnes/deploy-to-neocities@v1
+        uses: bcomnes/deploy-to-neocities@v3
         if: ${{ success() && github.ref == 'refs/heads/main' }}
         with:
           api_token: ${{ secrets.NEOCITIES_API_KEY }}
