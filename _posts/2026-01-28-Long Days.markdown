@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Long Days"
+date:   2026-01-28 11:46:00 -0400
+categories: update
+---
+
