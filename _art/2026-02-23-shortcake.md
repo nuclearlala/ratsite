@@ -2,7 +2,7 @@
 layout: art
 title: "Shortcake"
 date: 2026-02-23 07:17:00 -0400
-image: "/assets/art/44.png"
+image: "/assets/art/59.png"
 tags:   strawberryshortcake
 ---
 
