@@ -1,6 +1,6 @@
 ---
 layout: art
-title: "Strawby Shortcake!"
+title: "Isabella and Bunny!"
 date: 2025-09-20 02:32:00 -0400
 image: "/assets/art/isabella and bunny.png"
 tags:   elinorwonderswhy phineasandferb
