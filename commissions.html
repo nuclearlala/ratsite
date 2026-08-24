@@ -5,14 +5,14 @@ paginate:
   collection: commissions
   per_page: 20
   limit: false
-  permalink: /art/:num/
+  permalink: /commissions/:num/
   reversed: true
 ---
 <h> <img src="/assets/images/Commbanner.png"> </h></center> <br>
 <center> <img src="/assets/images/under_construction1.gif" height="100px"> </center> <br>
 
 
-    {% for post in paginator.art %}
+    {% for post in paginator.commissions %}
     <div class="artpost">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<br><img src="{{post.image}}" height="300px"></a>
     </div>
