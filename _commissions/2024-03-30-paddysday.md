@@ -1,6 +1,6 @@
 ---
 layout: commissions
-title: "Comm Test"
+title: "Paddys day"
 date: 2025-03-16 7:32:00 -0400
 image: "/assets/art/commissions/paddys day movie night.png"
 tags: 
