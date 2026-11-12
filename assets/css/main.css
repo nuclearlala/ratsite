@@ -245,6 +245,9 @@ html {
         height: 300px;
     }
 
-
+  .splide__slide img {
+  width: 100%;
+  height: auto;
+}
 
 /* end credit */
